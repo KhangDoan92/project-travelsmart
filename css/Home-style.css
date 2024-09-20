@@ -1,3 +1,13 @@
+/* global */
+:root {
+    --gradient-int: linear-gradient(#8A3AB9, #E95950, #BC2A8D, #FCCC63, #FBAD50, #CD486B, #4C68D7);
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
 /* Toolbar Menu */
 *{
     margin: 0;
@@ -30,10 +40,11 @@ h2{
 }
 .toolbar-Menu .logo-menu{
     width: 300px;
-    height: 100px;
+    height: 98px;
     overflow: hidden;
     text-align: left;
     background-color: #caf0f8;
+   
 }
 .toolbar-Menu .logo-menu img{
     height: 100px;
@@ -1128,16 +1139,16 @@ h2{
 
 .footer-column .footer-description {
     margin-bottom: 15px;
-    line-height: 1.6;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
+    color: #264653;
 }
 
 .footer-column h3 {
-    margin-bottom: 20px;
-    font-size: 35px;
-    font-weight: bold;
-    color: #1d3557;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #264653;
 }
 
 .footer-column .quick-links-h3 {
@@ -1152,6 +1163,7 @@ h2{
 .footer-column ul li {
     margin-top: 20px;
     font-weight: 600;
+    width: 200px;
 }
 
 .footer-column ul li a {
@@ -1165,9 +1177,7 @@ h2{
 }
 
 .footer-column ul li a:hover {
-    color: #90e0ef;
-    font-size: 18px;
-    text-shadow: 0px 0px 10px #c4d3e8;
+    color: #0096c7;
 }
 
 .footer-column p {
@@ -1337,9 +1347,9 @@ h2{
 
 .newsletter h1 {
     margin-bottom: 40px;
-    font-size: 50px;
-    font-weight: 600;
-    color: #1d3557;
+    font-weight: 700;
+    font-size: 40px;
+    color: #05555c;
 }
 
 .newsletter-form {
@@ -1373,8 +1383,6 @@ h2{
 .newsletter-form button:hover {
     background-color: #90e0ef;
     color: #0096c7;
-    transform: scale(1.02);
-    border: 1px solid #0096c7;
 }
 
 @media (max-width: 768px) {
