@@ -221,6 +221,14 @@ p {
     padding: 3rem;
 }
 
+.destinations .container h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #1d3557;
+    margin-bottom: 50px;
+}
+
 .destinations .container .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, auto));
@@ -236,10 +244,24 @@ p {
     flex-direction: column;
 }
 
-.destinations .grid-wrapper .grid-box img {
+.destinations .grid-wrapper .grid-box .grid-box-img {
+    overflow: hidden;
     width: 380px;
     height: 380px;
     border-radius: 20px;
+}
+
+
+.destinations .grid-wrapper .grid-box .grid-box-img img {
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 2s ease-in-out;
+}
+
+.destinations .grid-wrapper .grid-box:hover .grid-box-img img {
+    transform: scale(1.2);
 }
 
 .destinations .grid-wrapper .grid-box .destinations-title {
@@ -250,12 +272,15 @@ p {
 .destinations .grid-wrapper .grid-box .destinations-title h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #1d3557 !important;
-    
 }
 
+
 .destinations .grid-wrapper .grid-box .destinations-title h3 a {
-    
+    color: #264653;
+}
+
+.destinations .grid-wrapper .grid-box .destinations-title h3 a:hover {
+    color: #0096c7 !important;
 }
 
 .destinations .grid-wrapper .grid-box .destinations-title i {
@@ -264,15 +289,26 @@ p {
     line-height: 25px;
 }
 
+/* Recommended */
+.recommended {
+    margin: 60px 0px;
+}
 
-/* ---------------------------------------------- */
+.recommended h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #1d3557;
+}
+
+/* Gallery */
 #gallery {
     display: flex;
     justify-content: center;
     flex-direction: row;
     min-height: 100vh;
-    padding-top: 80px;
-    /* background-image: linear-gradient(to bottom, #90e0ef,#caf0f8, #ffffff) */
+    /* padding-top: 80px; */
+    margin-top: 50px;
 }
 
 .img-card {
@@ -280,6 +316,7 @@ p {
     height: 600px;
     margin: 0.5rem;
     overflow: hidden;
+    border: 2px solid #0096c7;
     border-radius: 2rem;
     position: relative;
     cursor: pointer;
@@ -303,7 +340,7 @@ p {
 }
 
 .img-card label {
-    padding: 1.25rem;
+    padding: 22px;
     border: 1px solid #fff3;
     border-radius: 2rem;
     position: absolute;
@@ -311,13 +348,15 @@ p {
     left: 0;
     right: 0;
     z-index: 2;
-    color: white;
+    color: whitesmoke;
+    text-shadow: 0px 0px 15px #000000;
     backdrop-filter: blur(8px) brighness(85%);
     -webkit-backdrop-filter: blur(8px) brightness(85%);
     font-size: 2rem;
     font-weight: 600;
     word-break: break-all;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .img-card.active label {
