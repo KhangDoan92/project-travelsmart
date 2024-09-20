@@ -76,15 +76,17 @@ h2{
 }
 .toolbar-Menu .sub-des{
     width: 200px;
-    height: 55px;
+    height: 100px;
     display: none !important;
     position: absolute;
     top: 12px;
     left: -30px;
-    border: 1px solid #00acee;
+    
     background-color: #CAF0F8;
     border-radius: 10px;
     padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .toolbar-Menu .des-menu:hover .sub-des{
     display: block !important;
