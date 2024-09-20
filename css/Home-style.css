@@ -299,7 +299,7 @@ h2{
 }
 .list-product .container-center .menu-list-product .btn-slide{
     position: absolute;
-    top: 48%;
+    top: 48% ;
     left: 50px;
     display: flex;
     justify-content: space-between;
@@ -900,7 +900,7 @@ h2{
 }
 .list-recomment .container-center .menu-list-recomment .btn-slide{
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 90px;
     display: flex;
     justify-content: space-between;
