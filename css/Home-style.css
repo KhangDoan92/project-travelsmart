@@ -53,6 +53,10 @@ h2{
     color: #264653;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none;
+}
+.toolbar-Menu .toolbar-header ul a:hover{
+    color: #00acee;
 }
 .toolbar-Menu .toolbar-header ul a i{
     font-size: 18px;
@@ -86,7 +90,7 @@ h2{
 .change-language p, .change-language .changeSub p{
     width: 28px;
     height: 20px;
-    background-image: url(./img/vi-flag.png);
+    background-image: url(/images/vi-flag.png);
     background-size: cover;
     background-position: center;
     margin-right: 20px;
@@ -94,10 +98,10 @@ h2{
 }
 
 .change-language .changeSub .enSub p{
-    background-image: url(./img/en-flag.png);
+    background-image: url(/images/en-flag.png);
 }
 .change-language .changeSub .IndiaSub p{
-    background-image: url(./img/india.jpg);
+    background-image: url(/images/India.jpg);
 }
 
 .change-language .changeSub .enSub, .viSub, .IndiaSub{
@@ -703,25 +707,26 @@ h2{
 }
 
 .card-destination2[for="c1"] {
-    background-image: url('./img/destination_1_1.jpg');
+    background-image: url('../images/destination_1_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .card-destination2[for="c2"] {
-    background-image: url('./img/destination_1_2.jpg');
-    background-size: fill;
+    background-image: url('../images/destination_1_2.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 .card-destination2[for="c3"] {
-    background-image: url('./img/destination_1_3.jpg');
+    background-image: url('../images/destination_1_3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .card-destination2[for="c4"] {
-    background-image: url('./img/destination_1_4.jpg');
+    background-image: url('../images/destination_1_4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
