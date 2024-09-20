@@ -42,7 +42,11 @@
     .header .banner .booking-banner{
         width: 500px;
         height: 70px;
-        left: 17%;
+        left: 50%;
+        transform:translateX(-50%);
+    }
+    .header .banner .booking-banner .search{
+        font-size: 12px;
     }
     .header .banner .booking-banner .btn{
         font-size: 12px;
