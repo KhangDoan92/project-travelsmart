@@ -33,6 +33,13 @@
     .icon-menu-mobile{
         display: block;
     }
+    .des-menu:hover{
+        height: 120px;
+    }
+    .des-menu:hover .sub-des{
+        background-color: unset;
+        border: 0px;
+    }
     .change-menu-mobile{
         display: flex !important;
     }
@@ -149,5 +156,8 @@
     }
     .footer-content .footer-column .footer-margin20{
         margin-left: 20px !important;
+    }
+    .instagram-feed .prj-img:hover .details {
+        transform: scaleX(0.8);
     }
 } 
