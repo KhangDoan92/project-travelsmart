@@ -39,12 +39,16 @@
     .change-language{
         display: none;
     }
+    .header .carousel-caption{
+        margin-left: 70px;
+    }
     .header .banner .booking-banner{
-        width: 500px;
+        width: 600px;
         height: 70px;
         left: 50%;
         transform:translateX(-50%);
     }
+
     .header .banner .booking-banner .search{
         font-size: 12px;
     }
@@ -136,5 +140,14 @@
         text-align: justify;
         margin-top: 20px;
     }
-
+    .footer-content .footer-column h3 {
+        text-align: left !important;
+    }
+    .footer-content .footer-column ul{
+        text-align: left !important;
+        padding-left: 20px !important;
+    }
+    .footer-content .footer-column .footer-margin20{
+        margin-left: 20px !important;
+    }
 } 

@@ -999,7 +999,9 @@ h2{
 /* Gallery ----------------- */
 .wrapper-gallery{
     width: 100%;
-    height: 800px;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 40px;
     background-image: linear-gradient(to top, #caf0f8,#caf0f8, #ffffff);
 }
 .wrapper-gallery .portfolio{
@@ -1303,9 +1305,10 @@ h2{
     align-items: center;
 }
 
-.sub-footer .container p {
+.sub-footer .container>p {
     color: white;
     font-weight: 500;
+    padding-top: 10px;
 }
 
 .payment-methods img {
