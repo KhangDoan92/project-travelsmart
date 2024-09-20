@@ -1,48 +1,179 @@
 @media only screen and (max-width: 768px){
-    /* Toolbar Menu */
+    /* Toolbar Menu ---------------> */
     .toolbar-header{
-        width: 230px !important;
-        height: 100vh !important;
-        background-color: white;
-        position: fixed;
-        right: 0;
-        top: -12px;
-        z-index: 2;
-        padding-top: 50px;
-        overflow: hidden;
-        display: none;
-    }
-    .toolbar-header .close-toolbar-mobile{
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 10px;
-        width: 40px;
-        height: 40px;
-        z-index: 10;
-        cursor: pointer;
-    }
-    .toolbar-header ul {
-        flex-direction: column;
-    }
-    .main-toolbar-header{
-        padding: 0px;
-    }
-    .toolbar-header .main-toolbar-header li {
-        margin-top: 20px !important;
-    }
-    .icon-menu-mobile{
-        display: block;
-    }
-    .change-menu-mobile{
-        display: flex !important;
-    }
-    .change-language{
-        display: none;
-    }
+       width: 230px !important;
+       height: 100vh !important;
+       background-color: white;
+       position: fixed;
+       right: 0;
+       top: -12px;
+       z-index: 2;
+       padding-top: 50px;
+       overflow: hidden;
+       display: none;
+   }
+   .toolbar-header .close-toolbar-mobile{
+       display: block;
+       position: absolute;
+       top: 30px;
+       right: 10px;
+       width: 40px;
+       height: 40px;
+       z-index: 10;
+       cursor: pointer;
+   }
+   .toolbar-header ul {
+       flex-direction: column;
+   }
+   .main-toolbar-header{
+       padding: 0px;
+   }
+   .toolbar-header .main-toolbar-header li {
+       margin-top: 20px !important;
+   }
+   .icon-menu-mobile{
+       display: block;
+   }
+   .des-menu:hover{
+       height: 120px;
+   }
+   .des-menu:hover .sub-des{
+       background-color: unset;
+       border: 0px;
+   }
+   .change-menu-mobile{
+       display: flex !important;
+   }
+   .change-language{
+       display: none;
+   }
+   .header .carousel-caption{
+       margin-left: 70px;
+   }
+   .header .banner .booking-banner{
+       width: 600px;
+       height: 70px;
+       left: 50%;
+       transform:translateX(-50%);
+   }
 
-    /* Banner */
-    .banner-wrapper .banner-content ul li{
-        
-    }
+   .header .banner .booking-banner .search{
+       font-size: 12px;
+   }
+   .header .banner .booking-banner .btn{
+       font-size: 12px;
+   }
+   .header .banner .booking-banner .date input{
+       width: 100px;
+   }
+   .header .banner .booking-banner .date #myID::placeholder{
+       font-size: 12px;
+   }
+   .animation2{
+       top: 150px;
+       left: 20px;
+       scale: 0.7;
+   }
+   .animation1{
+       top: 150px;
+       left: 5.5rem;
+   }
+   .animation3{
+       top: 180px;
+       left: 8rem;
+   }
+   .list-product .container-center .list-wrapper{
+       width: 360px;
+   }
+   .list-product .container-center .btn-slide{
+       width: 650px !important;
+   }
+   .wrapper-destination2 .container-destination2{
+       scale: 0.7;
+   }
+   .together .container-together{
+       flex-direction: column;
+       position: relative;
+       height: 1200px;
+   }
+   .together .container-together .container-together-left{
+       scale: 0.7;
+       margin-left: -50px;
+       position: absolute;
+       top: 450px;
+   }
+   .together .container-together .container-together-right{
+       position: absolute;
+       top: 0;
+       width: 750px;
+   }
+   .together .container-together .container-together-right>h2{
+       text-align: center;
+   }
+   .together .container-together .container-together-right span{
+       margin-left: 300px;
+   }
+   .together .container-together .container-together-right >p{
+       width: 670px;
+       text-align: justify;
+   }
+   .together .container-together .container-together-right .puzzle{
+       text-align: center;
+   }
+   .together .container-together .container-together-right .main-together-right{
+    display: none;
+   }
+   .together .container-together .container-together-right .btn-LearnMore{
+       width: 200px;
+       height: 50px;
+       border-radius: 20px;
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
+       margin: 0px;
+   }
+
+  
+   .list-recomment .container-center h6{
+       font-size: 25px;
+   }
+   .list-wrapper-recomment{
+       width: 330px !important;
+   }
+   .menu-list-recomment .btn-slide{
+       width: 550px !important;
+   }
+   .list-recomment .container-center>p{
+       width: 600px;
+       text-align: justify;
+       margin-top: 20px;
+   }
+
+   /* Footer ---------------> */
+   .footer-content .footer-column h3 {
+       text-align: left !important;
+   }
+   .footer-content .footer-column ul{
+       text-align: left !important;
+       padding-left: 20px !important;
+   }
+   .footer-content .footer-column .footer-margin20{
+       margin-left: 20px !important;
+   }
+   .instagram-feed .prj-img:hover .details {
+       transform: scaleX(0.8);
+   }
+   .instagram-feed .prj-img .details {
+        width: 55%;
+        left: -5%
+   }
+
+   /* Banner ---------------> */
+   .banner-wrapper .banner-content {
+        position: absolute;
+        top: 35%;
+        left: 28%;
+        text-align: center;
+   }
+
 }

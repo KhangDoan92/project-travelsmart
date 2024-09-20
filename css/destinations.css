@@ -39,10 +39,11 @@ p {
 }
 .toolbar-Menu .logo-menu{
     width: 300px;
-    height: 100px;
+    height: 98px;
     overflow: hidden;
     text-align: left;
     background-color: #caf0f8;
+   
 }
 .toolbar-Menu .logo-menu img{
     height: 100px;
@@ -57,11 +58,35 @@ p {
 }
 .toolbar-Menu .toolbar-header ul li{
     margin: 0px 40px;
+    position: relative;
 }
 .toolbar-Menu .toolbar-header ul a{
     color: #264653;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none;
+}
+.toolbar-Menu .toolbar-header ul a:hover{
+    color: #00acee;
+}
+.toolbar-Menu .des-menu{
+    position: relative;
+}
+.toolbar-Menu .sub-des{
+    width: 200px;
+    height: 55px;
+    display: none !important;
+    position: absolute;
+    top: 12px;
+    left: -30px;
+    border: 1px solid #00acee;
+    background-color: #CAF0F8;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.toolbar-Menu .des-menu:hover .sub-des{
+    display: block !important;
+    
 }
 .toolbar-Menu .toolbar-header ul a i{
     font-size: 18px;
@@ -95,18 +120,18 @@ p {
 .change-language p, .change-language .changeSub p{
     width: 28px;
     height: 20px;
-    background-image: url(../images/vi-flag.png);
+    background-image: url(/images/vi-flag.png);
     background-size: cover;
     background-position: center;
     margin-right: 20px;
-    /* margin-top: 17px; */
+    
 }
 
 .change-language .changeSub .enSub p{
-    background-image: url(../images/en-flag.png);
+    background-image: url(/images/en-flag.png);
 }
 .change-language .changeSub .IndiaSub p{
-    background-image: url(../images/india.jpg);
+    background-image: url(/images/India.jpg);
 }
 
 .change-language .changeSub .enSub, .viSub, .IndiaSub{
@@ -161,7 +186,6 @@ p {
     display: none;
     position: absolute;
 }
-
 /* Banner */
 .banner-wrapper{
     position: relative;

@@ -160,4 +160,8 @@
     .instagram-feed .prj-img:hover .details {
         transform: scaleX(0.8);
     }
+    .instagram-feed .prj-img .details {
+        width: 77%;
+        left: -7%
+    }
 } 
