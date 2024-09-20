@@ -1,4 +1,4 @@
-// language
+// change language footer
 document.querySelector('.select-selected').addEventListener('click', function() {
     this.classList.toggle('active');
     this.nextElementSibling.classList.toggle('select-hide');
@@ -30,5 +30,10 @@ imgCard.forEach(element => {
     })
 });
 
-
+// toggle Change Language
+let A = document.querySelector(".change-language");
+let B = document.querySelector(".changeSub");
+A.addEventListener("click", () =>{
+    B.classList.toggle("change-language-active");
+});
 
