@@ -4,10 +4,10 @@ flatpickr("#myID", {
 });
 
 // toggle Change Language
-let A = document.querySelector(".change-language");
-let B = document.querySelector(".changeSub");
-A.addEventListener("click", () =>{
-    B.classList.toggle("change-language-active");
+let ChangeLanguageBtn = document.querySelector(".change-language");
+let ChangeLanguage = document.querySelector(".changeSub");
+ChangeLanguageBtn.addEventListener("click", () =>{
+    ChangeLanguage.classList.toggle("change-language-active");
 });
 
 // toggle Change menu right
@@ -65,3 +65,5 @@ $(document).ready(function(){
         })  
     })
 })
+
+// Change language footer

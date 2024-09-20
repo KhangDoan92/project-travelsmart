@@ -48,6 +48,7 @@ h2{
 }
 .toolbar-Menu .toolbar-header ul li{
     margin: 0px 40px;
+    position: relative;
 }
 .toolbar-Menu .toolbar-header ul a{
     color: #264653;
@@ -57,6 +58,25 @@ h2{
 }
 .toolbar-Menu .toolbar-header ul a:hover{
     color: #00acee;
+}
+.toolbar-Menu .des-menu{
+    position: relative;
+}
+.toolbar-Menu .sub-des{
+    width: 200px;
+    height: 55px;
+    display: none !important;
+    position: absolute;
+    top: 12px;
+    left: -30px;
+    border: 1px solid #00acee;
+    background-color: #CAF0F8;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.toolbar-Menu .des-menu:hover .sub-des{
+    display: block !important;
+    
 }
 .toolbar-Menu .toolbar-header ul a i{
     font-size: 18px;
@@ -800,22 +820,12 @@ h2{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #c42d3c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 30px;
-    color: white;
-    padding-left: 35px;
     text-decoration: none;
     position: relative;
     z-index: 2;
-    margin: 40px 0px 0px 80px;
+    margin: 40px 20px 0px 80px;
 }
-.together .container-together-right .btn-LearnMore:hover{
-    font-weight: bold;
-}
+
 .together .container-together-right .btn-LearnMore span{
     background: white;
     height: 100%;
@@ -1322,7 +1332,7 @@ h2{
 .newsletter .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 70px 15px;
+    padding: 0px 0px 70px 15px;
 }
 
 .newsletter h1 {
