@@ -250,8 +250,12 @@ p {
 .destinations .grid-wrapper .grid-box .destinations-title h3 {
     font-size: 20px;
     font-weight: 600;
-    color: grey;
-    margin-right: 10px;
+    color: #1d3557 !important;
+    
+}
+
+.destinations .grid-wrapper .grid-box .destinations-title h3 a {
+    
 }
 
 .destinations .grid-wrapper .grid-box .destinations-title i {
