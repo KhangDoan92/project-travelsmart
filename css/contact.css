@@ -320,10 +320,6 @@ ul li a{
     }
 }
 
-.info{
-
-}
-
 .info_1{
 	
 	border:1px solid rgb(210, 217, 222);
@@ -334,7 +330,7 @@ ul li a{
 }
 .info_3{
 	display:flex;
-	item-align:center;
+	align-items:center;
 	padding: 20px 0px;
 
 }
@@ -404,7 +400,7 @@ ul li a{
  				0 0 60px rgb(0, 131, 255),
  				0 0 100px rgb(0, 131, 255);
  	animation: colors 5s infinite;
- 	align:center;
+ 	align-items:center;
  	transform:translate(-50%,-50%);
  	display:none;
 
